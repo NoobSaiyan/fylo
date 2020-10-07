@@ -1,0 +1,31 @@
+.header {
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  display: grid;
+  grid-row: 1fr 1fr;
+  background-color: var(--Dark-Blue);
+}
+.name {
+  font-family: 'Raleway', sans-serif;
+  align-self: center;
+  color: white;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: 700;
+  font-size: 50px;
+}
+.icons {
+  display: inline;
+  padding-left: 20px;
+}
+.icon {
+  display: grid;
+  border-radius: 10px;
+  height: 45px;
+  width: 45px;
+  margin-left: 20px;
+  background-color: var(--Very-Dark-Blue);
+  align-items: center;
+  justify-items: center;
+  float: left;
+}
