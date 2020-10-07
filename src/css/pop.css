@@ -2,7 +2,6 @@
   margin-left: 21%;
   display: grid;
   position: absolute;
-  justify-self: end;
   height: 22%;
   width: 12%;
 }
@@ -25,10 +24,26 @@
   border-left: 20px solid transparent;
   border-top: 20px solid white;
 }
+@media only screen and (max-width: 748px) {
+  .popup {
+    width: 40%;
+    height: 15%;
+    margin-left: 20%;
+    margin-top: 45%;
+  }
+  .box {
+    border-bottom-right-radius: 10px;
+  }
+  .arrow {
+    visibility: hidden;
+  }
+}
+
 .msg {
   color: var(--Grayish-Blue);
 }
 .value {
   color: black;
+  font-weight: 700;
   font-size: 30px;
 }

@@ -6,7 +6,7 @@ const Pop = () => {
     <div className='popup'>
       <div className='box'>
         <p className='msg'>
-          <b className='value'>185</b> GB Left
+          <span className='value'>185</span> GB Left
         </p>
       </div>
       <div className='arrow'></div>

@@ -14,6 +14,16 @@
   grid-template-columns: 10% auto 10%;
   background-color: var(--Dark-Blue);
 }
+@media only screen and (max-width: 748px) {
+  .rightside {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .slider {
+    height: 80%;
+  }
+}
+
 .heading {
   grid-column: 2;
   font-size: 15px;
